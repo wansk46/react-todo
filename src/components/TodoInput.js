@@ -7,6 +7,8 @@ export default class TodoInput extends Component {
     this.props.addNewTodo(input.value)
     input.value = '';
   }
+
+  
   
   render() {
     return (
