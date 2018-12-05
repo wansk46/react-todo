@@ -23,4 +23,4 @@ const mapDispatchToProps = dispatch => ({
   
 connect(null, mapDispatchToProps)(TodoInput)
 
-export default connect(null, mapDispatchToProps)(TodoInput);//let TodoList and Redux know each other
+export default connect(null, mapDispatchToProps)(TodoInput);//let TodoInput and Redux know each other
